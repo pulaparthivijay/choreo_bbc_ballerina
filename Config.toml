@@ -1,0 +1,11 @@
+big_billion_cars.dbconnection.username = "xxxxxxxxxxxxx"
+big_billion_cars.dbconnection.password="xxxxxxxxxxxxx"
+big_billion_cars.dbconnection.dbHost="localhost"
+big_billion_cars.dbconnection.port=5438
+big_billion_cars.dbconnection.database="postgres"
+
+big_billion_cars.dbconnection.acesKeyId="xxxxxxxxxxxxx"
+big_billion_cars.dbconnection.secretAcesKey="xxxxxxxxxxxxx"
+
+big_billion_cars.dbconnection.mail="yudhistervijay@gmail.com"
+big_billion_cars.dbconnection.mailSmtpPassword="xxxxxxxxxxxxx"
