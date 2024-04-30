@@ -32,3 +32,19 @@ endpoints:
   # +optional Context (base path) of the API that is exposed via this endpoint.
   # This is mandatory if the endpoint type is set to REST or GraphQL.
   context: openapi.yaml
+
+
+  outbound:
+    serviceReferences:
+    - name: choreo:///yudhistertech/beuc/swmnmf/d709e/v1/ORGANIZATION
+      connectionConfig: 01ef06f3-892c-1aa6-91c4-134c7a3e8fb3
+      env:
+      - from: ServiceURL
+        to: <YOUR_ENV_VARIABLE_NAME_HERE>
+      - from: ConsumerKey
+        to: <YOUR_ENV_VARIABLE_NAME_HERE>
+      - from: ConsumerSecret
+        to: <YOUR_ENV_VARIABLE_NAME_HERE>
+      - from: TokenURL
+        to: <YOUR_ENV_VARIABLE_NAME_HERE>
+
